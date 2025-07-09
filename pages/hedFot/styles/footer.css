@@ -1,0 +1,29 @@
+.footer {
+	background-color: #3f3f3f;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.footer-container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.footer-title {
+	margin-bottom: 10px;
+}
+
+.footer-text {
+	margin: 5px 0;
+}
+
+.footer-subtitle {
+	margin: 20px 0 10px;
+}
+
+.footer-link {
+	color: var(--main-color-hover);
+	text-decoration: none;
+}

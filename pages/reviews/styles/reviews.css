@@ -1,0 +1,54 @@
+.container {
+	max-height: 685px;
+	overflow-y: auto;
+}
+
+.review {
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	margin-bottom: 10px;
+}
+
+.review strong {
+	display: block;
+	margin-bottom: 5px;
+}
+form {
+	margin-bottom: 20px;
+}
+
+input[type='text'] {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ced4da;
+	border-radius: 12px;
+	box-sizing: border-box;
+	transition: border-color 0.3s;
+}
+
+input[type='text']:focus {
+	border-color: #1dd658;
+	outline: none;
+}
+
+input[type='submit'] {
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+	background-color: #1dd658;
+	color: #000000;
+	border: none;
+	border-radius: 12px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	margin-top: 10px;
+	border: 1px solid #000000;
+}
+
+input[type='submit']:hover {
+	background-color: #19c450;
+}

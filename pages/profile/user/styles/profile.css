@@ -1,0 +1,47 @@
+.container {
+	margin: 20px auto;
+	padding: 20px;
+	margin-top: 125px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.orders,
+.questions {
+	flex: 1;
+	margin: 30px;
+	min-width: 300px;
+	max-height: 565px;
+	overflow-y: auto;
+}
+.orders-list {
+	width: 100%;
+	margin: 0 auto;
+}
+.order,
+.question {
+	border: 1px solid #e0e0e0;
+	margin: 10px 0;
+	padding: 15px;
+	border-radius: 8px;
+	background-color: #fafafa;
+	transition: box-shadow 0.3s;
+}
+
+.order h2,
+.question h2 {
+	margin: 0 0 10px;
+	font-size: 20px;
+	color: #1a1a1a;
+}
+
+.order p,
+.question p {
+	margin: 5px 0;
+	font-size: 16px;
+	line-height: 1.5;
+}

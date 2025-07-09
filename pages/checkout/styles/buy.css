@@ -1,0 +1,60 @@
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #000000;
+}
+
+input[type='text'],
+select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 12px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+}
+
+input[type='text']:focus,
+select:focus {
+	border-color: var(--main-color);
+	outline: none;
+}
+
+input[type='submit'] {
+	background-color: var(--main-color);
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 16px;
+}
+
+input[type='submit']:hover {
+	background-color: var(--main-color-hover);
+}
+
+.suggestions {
+	max-height: 150px;
+	width: 100%;
+	overflow-y: auto;
+	position: absolute;
+	background: white;
+	z-index: 1000;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item {
+	padding: 8px 10px;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.suggestion-item:hover {
+	background-color: #f0f0f0;
+}
